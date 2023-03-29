@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CollegeDetailsProperties.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CollegeDetails">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="College Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Unversity Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="state" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="City" Type="nvarchar" MaxLength="50" />
+    <Property Name="Branch" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Open" Type="float" />
+    <Property Name="OBC" Type="float" />
+    <Property Name="SC" Type="float" />
+    <Property Name="ST" Type="float" />
+    <Property Name="EWS" Type="float" />
+    <Property Name="Seat Avability" Type="int" Nullable="false" />
+    <Property Name="Facility" Type="nvarchar" MaxLength="500" />
+  </EntityType>
+  <EntityContainer Name="CollegeDetailsPropertiesStoreContainer">
+    <EntitySet Name="CollegeDetails" EntityType="Self.CollegeDetails" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CollegeDetailsPropertiesStoreContainer" CdmEntityContainer="Case_StudyEntities1">
+    <EntitySetMapping Name="CollegeDetails">
+      <EntityTypeMapping TypeName="CollegeDetailsProperties.CollegeDetail">
+        <MappingFragment StoreEntitySet="CollegeDetails">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="College_Name" ColumnName="College Name" />
+          <ScalarProperty Name="Unversity_Name" ColumnName="Unversity Name" />
+          <ScalarProperty Name="state" ColumnName="state" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Branch" ColumnName="Branch" />
+          <ScalarProperty Name="Open" ColumnName="Open" />
+          <ScalarProperty Name="OBC" ColumnName="OBC" />
+          <ScalarProperty Name="SC" ColumnName="SC" />
+          <ScalarProperty Name="ST" ColumnName="ST" />
+          <ScalarProperty Name="EWS" ColumnName="EWS" />
+          <ScalarProperty Name="Seat_Avability" ColumnName="Seat Avability" />
+          <ScalarProperty Name="Facility" ColumnName="Facility" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
